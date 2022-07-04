@@ -9,7 +9,15 @@ import {
   Cascader,
   Field,
   Popup,
-  Search
+  Search,
+  Grid,
+  GridItem,
+  Image as VanImage,
+  Cell,
+  CellGroup,
+  NavBar,
+  DropdownMenu,
+  DropdownItem
 } from 'vant'
 const element = [
   Button,
@@ -22,7 +30,15 @@ const element = [
   Cascader,
   Field,
   Popup,
-  Search
+  Search,
+  Grid,
+  GridItem,
+  VanImage,
+  Cell,
+  CellGroup,
+  NavBar,
+  DropdownMenu,
+  DropdownItem
 ]
 export default function (Vue) {
   element.forEach((item) => Vue.use(item))
