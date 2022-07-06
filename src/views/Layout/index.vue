@@ -1,5 +1,6 @@
 <template>
   <div>
+    <router-view></router-view>
     <van-tabbar route active-color="rgb(33, 185, 122)">
       <van-tabbar-item replace to="/Layout/Home" icon="home-o"
         >首页</van-tabbar-item
@@ -14,7 +15,7 @@
         >我的</van-tabbar-item
       >
     </van-tabbar>
-    <router-view></router-view>
+
   </div>
 </template>
 

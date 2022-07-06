@@ -28,7 +28,17 @@ const routes = [
         path: '/Layout/Admin',
         component: () => import('@/views/Admin')
       }
+
     ]
+  },
+  {
+
+    path: '/Login',
+    component: () => import('@/views/Login')
+  },
+  {
+    path: '/registe',
+    component: () => import('@/views/registe')
   }
 ]
 

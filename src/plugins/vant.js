@@ -17,7 +17,10 @@ import {
   CellGroup,
   NavBar,
   DropdownMenu,
-  DropdownItem
+  DropdownItem,
+  Form,
+  Toast
+
 } from 'vant'
 const element = [
   Button,
@@ -38,7 +41,10 @@ const element = [
   CellGroup,
   NavBar,
   DropdownMenu,
-  DropdownItem
+  DropdownItem,
+  Form,
+  Toast
+
 ]
 export default function (Vue) {
   element.forEach((item) => Vue.use(item))
